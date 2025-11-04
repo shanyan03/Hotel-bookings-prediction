@@ -1,0 +1,41 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# === Jupyter ===
+.ipynb_checkpoints/
+.jupyter/
+
+# === Environments ===
+.env
+.venv/
+venv/
+env/
+.conda/
+conda-env.yaml
+
+# === IDE / OS ===
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# === Data / Outputs (keep CSVs tracked by default) ===
+# Uncomment if you decide to keep large raw dumps out of git:
+# data/raw/
+# data/interim/
+# logs/
+# models/
+
+# Figures
+Figures/outputs/*.gif
+Figures/outputs/*.mp4
+
+# === Reports ===
+# Allow HTML/PDF reports to be tracked; ignore temp files
+*.tmp
+*.log
