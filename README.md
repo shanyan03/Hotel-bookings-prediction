@@ -2,6 +2,16 @@
 
 **One-liner:** End-to-end analysis and modelling of hotel booking data with a clean, reproducible Jupyter workflow and a published HTML report.
 
+## Project poster — pipeline at a glance
+<p align="center">
+  <img src="Figures/poster.png" alt="Hotel Bookings Prediction poster: preprocessing, feature engineering, EDA, Random Forest, Gradient Boosting, feature importance, conclusion" width="95%">
+  <br>
+  <em>
+    End-to-end summary: data preprocessing & feature engineering → exploratory analysis → 
+    models (Random Forest ~92.1% acc, Gradient Boosting ~90.5%) → feature importance → takeaway conclusions.
+  </em>
+</p>
+
 ## What’s here
 - `main.ipynb` — final, annotated notebook (EDA → feature engineering → modelling → evaluation).
 - `main.html` — exported HTML of the notebook for quick viewing without a Python runtime.
